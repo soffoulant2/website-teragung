@@ -1,0 +1,12 @@
+/*targets an ID*/
+#hello {
+    color: cyan;
+}
+.box {
+    width: 100px;
+    height: 100px; 
+}
+/*an id cannot have spaces therefore consider using classes in this case*/
+.redbox {
+    background-color: aliceblue;
+}

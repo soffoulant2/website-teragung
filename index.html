@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Eats | Order Now</title>
+    <style>
+        body {
+        font-family : sans-serif;
+        line-height : 1.6;
+        color       : #333;
+        max-width   : 800px;
+        margin      : 0 auto;
+        padding     : 20px;
+        text-align  : center;
+        }
+        header {
+        background: #f4f4f4;
+        padding: 2rem;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        }
+        .menu-item {
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        }
+        .order-btn {
+            display: inline-block; background: #28a745; color: white;
+            padding: 15px 30px; text-decoration: none; border-radius: 5px;
+            font-weight: bold; margin-top: 30px; font-size: 1.2rem;
+        }
+        .order-btn:hover { background: #218838; }
+        .navbar {
+            margin-bottom: 20px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Adds space between the links */
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: color 0.3s ease; /* Smooth color change */
+            padding: 5px 10px;
+        }
+
+        .navbar a:hover {
+            color: #28a745; /* Turns green when you hover over it */
+            border-bottom: 2px solid #28a745; /* Adds a little underline effect */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Web order maggi</h1>
+        <p>Tq, support bisnes kitorang :)</p>
+    </header>
+    <nav class="navbar">
+        <a href="about.html">About Us</a>
+        <a href="form.html">Order Form 1</a>
+        <a href="form2.html">Order Form 2</a>
+    </nav>
+    <section id="menu">
+        <h2>Menu makan</h2>
+        <div class="menu-item">
+            <span>Maggi Kari</span>
+            <span>$1.60</span>
+        </div>
+        <div class="menu-item">
+            <span>Mie Sedap</span>
+            <span>$2.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Tambah telow</span>
+            <span>$1.00</span>
+        </div>
+    </section>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyB3VfJ4CNVIJKaDYEEJM1t63gMYpTdPqREXjm9UJ3sis5ww/viewform?usp=dialog" target="_blank" class="order-btn">
+        Place Your Order Here
+    </a>
+
+    <footer>
+        <p style="margin-top: 50px; font-size: 0.8rem; color: #888;">© 2026 Global Ikhwan Sdn. Bhd</p>
+    </footer>
+
+</body>
+</html>
