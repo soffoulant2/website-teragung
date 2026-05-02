@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="preview.png" alt="Preview">
+</p>
+
 hello muzamil, ni note simple aq letak kt sini utk first time read shj
 
 kalau ko niat nk tolong aq please habiskan README.md ni
